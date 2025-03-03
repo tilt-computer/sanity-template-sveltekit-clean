@@ -1,4 +1,5 @@
 <script lang="ts">
+	import '../app.css';
 	import { isPreviewing, VisualEditing } from '@sanity/visual-editing/svelte';
 	import { page } from '$app/stores';
 	import LiveMode from '../components/LiveMode.svelte';
